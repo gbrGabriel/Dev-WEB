@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Api\\DevWEB.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Api\\DevWEB.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Api\\DevWEB.Api.csproj",
+        "projectName": "DevWEB.Api",
+        "projectPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Api\\DevWEB.Api.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj": {
+                "projectPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj"
+              },
+              "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Data\\DevWEB.Data.csproj": {
+                "projectPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Data\\DevWEB.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj",
+        "projectName": "DevWEB.Business",
+        "projectPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Data\\DevWEB.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Data\\DevWEB.Data.csproj",
+        "projectName": "DevWEB.Data",
+        "projectPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Data\\DevWEB.Data.csproj",
+        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
+        "outputPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj": {
+                "projectPath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
