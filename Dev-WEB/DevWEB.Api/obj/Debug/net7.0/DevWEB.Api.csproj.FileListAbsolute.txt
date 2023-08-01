@@ -73,3 +73,11 @@ D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\obj\Debug\ne
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\DevWEB.Api.pdb
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\DevWEB.Api.genruntimeconfig.cache
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\ref\DevWEB.Api.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\DevWEB.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\AutoMapper.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\Humanizer.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\System.CodeDom.dll

@@ -13,3 +13,5 @@ D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Data\obj\Debug\n
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Data\obj\Debug\net7.0\refint\DevWEB.Data.dll
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Data\obj\Debug\net7.0\DevWEB.Data.pdb
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Data\obj\Debug\net7.0\ref\DevWEB.Data.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Data\bin\Debug\net7.0\DevWEB.Data.runtimeconfig.json
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\Dev-WEB\DevWEB.Data\obj\Debug\net7.0\DevWEB.Data.genruntimeconfig.cache
