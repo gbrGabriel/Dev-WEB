@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "thCiT6PmAaF9N2qFx3DQdXpzxteM6zC1eyNACL8dV2B7gcbMfHTT18hitlwcEqxetr90oYSpv5wu8q7kptRJIA==",
+  "success": true,
+  "projectFilePath": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Business\\DevWEB.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
