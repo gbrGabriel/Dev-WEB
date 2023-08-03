@@ -12,12 +12,17 @@ namespace DevWEB.Api.Controllers
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IFornecedorService _fornecedorService;
         private readonly IMapper _mapper;
-        public FornecedoresController(IFornecedorRepository fornecedorRepository, IFornecedorService fornecedorService, IMapper mapper)
+        private readonly IEnderecoRepository _enderecoRepository;
+        public FornecedoresController(IFornecedorRepository fornecedorRepository,
+                                      IFornecedorService fornecedorService,
+                                      IMapper mapper,
+                                      INotificador notificador,
+                                      IEnderecoRepository enderecoRepository) : base(notificador)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
             _fornecedorService = fornecedorService;
-
+            _enderecoRepository = enderecoRepository;
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<FornecedorDTO>>> ObterTodos()
@@ -35,30 +40,43 @@ namespace DevWEB.Api.Controllers
             return Ok(fornecedor);
         }
 
+        [HttpGet("obter-endereco/{id:guid}")]
+        public async Task<EnderecoDTO> ObterEnderecoPorId(Guid id)
+        {
+            return _mapper.Map<EnderecoDTO>(await _enderecoRepository.ObterPorId(id));
+        }
+
+        [HttpPut("atualizar-endereco/{id:guid")]
+        public async Task<IActionResult> AtualizarEndereco(Guid id, EnderecoDTO model)
+        {
+            if (id != model.Id) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            await _fornecedorService.AtualizarEndereco(_mapper.Map<Endereco>(model));
+
+            return CustomResponse(model);
+        }
+
         [HttpPost]
         public async Task<ActionResult<FornecedorDTO>> Adicionar(FornecedorDTO model)
         {
-            if (!ModelState.IsValid) BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var fornecedor = _mapper.Map<Fornecedor>(model);
+            await _fornecedorService.Adicionar(_mapper.Map<Fornecedor>(model));
 
-            await _fornecedorService.Adicionar(fornecedor);
-
-            return Ok();
+            return CustomResponse(model);
         }
 
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<FornecedorDTO>> Adicionar(Guid id, FornecedorDTO model)
         {
-            if (id != model.Id) BadRequest();
+            if (id != model.Id) return BadRequest();
 
-            if (!ModelState.IsValid) BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
-            var fornecedor = _mapper.Map<Fornecedor>(model);
+            await _fornecedorService.Atualizar(_mapper.Map<Fornecedor>(model));
 
-            await _fornecedorService.Atualizar(fornecedor);
-
-            return Ok(fornecedor);
+            return CustomResponse(model);
         }
 
         [HttpDelete("{id:guid}")]
@@ -66,11 +84,11 @@ namespace DevWEB.Api.Controllers
         {
             var fornecedor = await ObterFornecedorEndereco(id);
 
-            if (fornecedor != null) BadRequest();
+            if (fornecedor != null) NotFound();
 
             await _fornecedorService.Remover(id);
 
-            return Ok();
+            return CustomResponse();
         }
 
         private async Task<FornecedorDTO> ObterFornecedorProdutosEndereco(Guid id)
