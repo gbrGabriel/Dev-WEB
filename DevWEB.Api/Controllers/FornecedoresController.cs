@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DevWEB.Api.Controllers
 {
-    [Route("api/fornecedores")]
+    [Route("api/v1/fornecedores")]
     public class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
@@ -24,7 +24,7 @@ namespace DevWEB.Api.Controllers
             _fornecedorService = fornecedorService;
             _enderecoRepository = enderecoRepository;
         }
-        [HttpGet]
+        [HttpGet("")]
         public async Task<ActionResult<IEnumerable<FornecedorDTO>>> ObterTodos()
         {
             return Ok(_mapper.Map<IEnumerable<FornecedorDTO>>(await _fornecedorRepository.ObterTodos()));

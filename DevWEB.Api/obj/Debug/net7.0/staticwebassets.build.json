@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "kmeDYDsUAM9/IJoKr4tdDpTy+9S8kNG4snfpxmZRYSw=",
+  "Hash": "U0ioAr8+J4eqA+NU6CJfpqkUhosr5MZX+urUSwmN858=",
   "Source": "DevWEB.Api",
   "BasePath": "_content/DevWEB.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DevWEB.Api\\wwwroot",
+      "Source": "DevWEB.Api",
+      "ContentRoot": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\",
+      "BasePath": "_content/DevWEB.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

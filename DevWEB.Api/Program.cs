@@ -2,14 +2,33 @@ using DevWEB.Api.Configuration;
 using DevWEB.Data.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(opt =>
+{
+    opt.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Dev-WEB",
+        Version = "v1",
+        Contact = new OpenApiContact
+        {
+            Name = "Gabriel Silva",
+            Email = "gabrielgbr.contato@gmail.com",
+        }
+    });
+
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+    opt.IncludeXmlComments(xmlPath);
+});
 
 builder.Services.AddRazorPages();
 
@@ -43,7 +62,7 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
-app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+app.MapControllers();
 
 app.MapRazorPages();
 

@@ -164,3 +164,6 @@ D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\ref
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\DevWEB.Api.pdb
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\DevWEB.Api.genruntimeconfig.cache
 D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\ref\DevWEB.Api.dll
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\DevWEB.Api.staticwebassets.runtime.json
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\bin\Debug\net7.0\DevWEB.Api.xml
+D:\Gabriel\Desktop\Programação e afins\Dev-WEB\DevWEB.Api\obj\Debug\net7.0\DevWEB.Api.xml
