@@ -7,9 +7,7 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddControllers();
 
 builder.Services.AddSwaggerGen(opt =>
 {
@@ -29,8 +27,6 @@ builder.Services.AddSwaggerGen(opt =>
 
     opt.IncludeXmlComments(xmlPath);
 });
-
-builder.Services.AddRazorPages();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
@@ -63,7 +59,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.MapRazorPages();
 
 app.Run();
