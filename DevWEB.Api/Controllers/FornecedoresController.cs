@@ -46,7 +46,7 @@ namespace DevWEB.Api.Controllers
             return _mapper.Map<EnderecoDTO>(await _enderecoRepository.ObterPorId(id));
         }
 
-        [HttpPut("atualizar-endereco/{id:guid")]
+        [HttpPut("atualizar-endereco/{id:guid}")]
         public async Task<IActionResult> AtualizarEndereco(Guid id, EnderecoDTO model)
         {
             if (id != model.Id) return BadRequest();
