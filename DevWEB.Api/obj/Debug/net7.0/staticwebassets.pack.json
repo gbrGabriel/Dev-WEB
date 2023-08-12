@@ -1,0 +1,201 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\.editorconfig",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\.editorconfig"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\.gitignore",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\.gitignore"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\README.md",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\README.md"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\angular.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\angular.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\e2e\\protractor.conf.js",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\protractor.conf.js"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\e2e\\src\\app.e2e-spec.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\src\\app.e2e-spec.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\e2e\\src\\app.po.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\src\\app.po.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\e2e\\tsconfig.e2e.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\e2e\\tsconfig.e2e.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\package-lock.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\package-lock.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\package.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\package.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\app-routing.module.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app-routing.module.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\app.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app.component.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\app.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app.component.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\app.module.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\app.module.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\base\\baseService.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\base\\baseService.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\base\\menu\\menu.component.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\cadastro\\cadastro.component.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\lista\\lista.component.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\models\\Fornecedor.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\models\\Fornecedor.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\models\\Produto.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\models\\Produto.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\produtos\\services\\produtoService.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\produtos\\services\\produtoService.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\user\\login\\login.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\login\\login.component.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\user\\login\\login.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\login\\login.component.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\menu\\menu.user.component.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\user\\user.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\user.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\app\\user\\userService.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\app\\user\\userService.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\browserslist",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\environments\\environment.prod.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\environments\\environment.prod.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\environments\\environment.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\environments\\environment.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\favicon.ico",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\index.html",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\index.html"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\karma.conf.js",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\karma.conf.js"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\main.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\main.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\polyfills.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\polyfills.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\styles.css",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\styles.css"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\test.ts",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\test.ts"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\tsconfig.app.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\tsconfig.app.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\tsconfig.spec.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\tsconfig.spec.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\src\\tslint.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\src\\tslint.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\tsconfig.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\tsconfig.json"
+    },
+    {
+      "Id": "D:\\Gabriel\\Desktop\\Programação e afins\\Dev-WEB\\DevWEB.Api\\wwwroot\\app\\demo-webapi\\tslint.json",
+      "PackagePath": "staticwebassets\\app\\demo-webapi\\tslint.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DevWEB.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DevWEB.Api.props",
+      "PackagePath": "build\\DevWEB.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DevWEB.Api.props",
+      "PackagePath": "buildMultiTargeting\\DevWEB.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DevWEB.Api.props",
+      "PackagePath": "buildTransitive\\DevWEB.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

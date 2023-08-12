@@ -9,6 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("Development", e => e.AllowAnyOrigin().
+                                        AllowAnyMethod().
+                                        AllowAnyHeader());
+});
+
 builder.Services.AddSwaggerGen(opt =>
 {
     opt.SwaggerDoc("v1", new OpenApiInfo
@@ -57,6 +64,8 @@ app.UseRouting();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.UseCors("Development");
 
 app.MapControllers();
 
